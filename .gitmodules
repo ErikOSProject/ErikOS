@@ -1,0 +1,15 @@
+[submodule "boot"]
+	path = boot
+	url = https://github.com/ErikOSProject/ErikBoot.git
+[submodule "kernel"]
+	path = kernel
+	url = https://github.com/ErikOSProject/ErikKernel.git
+[submodule "bus"]
+	path = bus
+	url = https://github.com/ErikOSProject/ErikBus.git
+[submodule "libc"]
+	path = libc
+	url = https://github.com/ErikOSProject/ErikLibC.git
+[submodule "init"]
+	path = init
+	url = https://github.com/ErikOSProject/ErikInit.git
