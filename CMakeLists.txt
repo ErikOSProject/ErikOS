@@ -17,6 +17,7 @@ include(${TARGET_ARCH}.cmake OPTIONAL)
 # Define the install path for libraries, headers, etc.
 # This should point to your sysroot
 set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/sysroot")
+set(CMAKE_SYSROOT "${CMAKE_INSTALL_PREFIX}")
 
 # Helpful message
 message(STATUS "Target architecture: ${TARGET_ARCH}")
