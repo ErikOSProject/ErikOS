@@ -12,7 +12,7 @@ if [ -z "$BUILD_DIR" ]; then
     BUILD_DIR=build/$ARCH
 fi
 
-SOURCE_DIR=$(realpath -e -- $(dirname -- "$0"))
+SOURCE_DIR=$(realpath -e -- "$(dirname -- "$0")")
 
 git submodule update --init --recursive
 
